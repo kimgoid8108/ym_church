@@ -1,4 +1,10 @@
-import { iconCrossAlt, iconYoutube, iconInstagram, iconFacebook, dividerLineAlt } from "@/lib/figma-assets";
+import {
+  iconCrossAlt,
+  iconYoutube,
+  iconInstagram,
+  iconFacebook,
+  dividerLineAlt,
+} from "@/lib/figma-assets";
 
 export default function Footer() {
   return (
@@ -8,7 +14,11 @@ export default function Footer() {
           <div className="flex gap-[10px] items-center">
             <div className="bg-[#c29c53] flex items-center justify-center rounded-[15px] shrink-0 size-[30px]">
               <div className="relative shrink-0 size-[14px]">
-                <img alt="" className="absolute block inset-0 max-w-none size-full" src={iconCrossAlt} />
+                <img
+                  alt=""
+                  className="absolute block inset-0 max-w-none size-full"
+                  src={iconCrossAlt}
+                />
               </div>
             </div>
             <p className="font-gothic font-extrabold text-[18px] text-white whitespace-nowrap">
@@ -16,13 +26,15 @@ export default function Footer() {
             </p>
           </div>
           <p className="font-gothic font-normal leading-[1.6] text-[#949eb0] text-[14px]">
-            &quot;나는 양의 문이라&quot;(요10:7)고 하신 선한목자되시는 예수님을 통하여 택함받은 성도들이 드나들며
-            은혜를 받는 주님의 교회입니다.
+            &quot;나는 양의 문이라&quot;(요10:7)고 하신 선한목자되시는 예수님을
+            통하여 택함받은 성도들이 드나들며 은혜를 받는 주님의 교회입니다.
           </p>
         </div>
         <div className="flex gap-[80px] items-start">
           <div className="flex flex-col gap-[16px] items-start whitespace-nowrap">
-            <p className="font-gothic font-bold text-[15px] text-white">교회 정보</p>
+            <p className="font-gothic font-bold text-[15px] text-white">
+              교회 정보
+            </p>
             <div className="flex flex-col font-gothic font-normal gap-[10px] items-start text-[#949eb0] text-[13px]">
               <p>주소: 경기도 시흥시 비둘기공원1길 22</p>
               <p>대표전화: 031-314-6020 / 팩스: 031-314-6030</p>
@@ -30,21 +42,44 @@ export default function Footer() {
             </div>
           </div>
           <div className="flex flex-col gap-[16px] items-start">
-            <p className="font-gothic font-bold text-[15px] text-white whitespace-nowrap">소셜 링크</p>
+            <p className="font-gothic font-bold text-[15px] text-white whitespace-nowrap">
+              소셜 링크
+            </p>
             <div className="flex gap-[12px] items-start">
               <div className="bg-[#1a2f4c] flex items-center justify-center rounded-[18px] shrink-0 size-[36px]">
+                <a
+                  href="https://www.youtube.com/@ym3033"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="group relative shrink-0 size-[16px] flex items-center justify-center"
+                >
+                  <img
+                    alt="유튜브"
+                    className="absolute block inset-0 max-w-none size-full transition-opacity group-hover:opacity-80"
+                    src={iconYoutube}
+                  />
+                  <span className="sr-only">유튜브 바로가기</span>
+                  <span className="absolute -right-5 top-1/2 -translate-y-1/2 text-[#c29c53] text-xs hidden group-focus:block group-hover:block whitespace-nowrap bg-[#222f48] rounded px-2 py-1 shadow">
+                    유튜브
+                  </span>
+                </a>
+              </div>
+              <div className="bg-[#1a2f4c] flex items-center justify-center rounded-[18px] shrink-0 size-[36px]">
                 <div className="relative shrink-0 size-[16px]">
-                  <img alt="유튜브" className="absolute block inset-0 max-w-none size-full" src={iconYoutube} />
+                  <img
+                    alt="인스타그램"
+                    className="absolute block inset-0 max-w-none size-full"
+                    src={iconInstagram}
+                  />
                 </div>
               </div>
               <div className="bg-[#1a2f4c] flex items-center justify-center rounded-[18px] shrink-0 size-[36px]">
                 <div className="relative shrink-0 size-[16px]">
-                  <img alt="인스타그램" className="absolute block inset-0 max-w-none size-full" src={iconInstagram} />
-                </div>
-              </div>
-              <div className="bg-[#1a2f4c] flex items-center justify-center rounded-[18px] shrink-0 size-[36px]">
-                <div className="relative shrink-0 size-[16px]">
-                  <img alt="페이스북" className="absolute block inset-0 max-w-none size-full" src={iconFacebook} />
+                  <img
+                    alt="페이스북"
+                    className="absolute block inset-0 max-w-none size-full"
+                    src={iconFacebook}
+                  />
                 </div>
               </div>
             </div>
@@ -53,7 +88,11 @@ export default function Footer() {
       </div>
       <div className="h-0 w-full max-w-[1200px] px-6">
         <div className="max-w-[1200px] mx-6">
-          <img alt="" className="block max-w-none w-full" src={dividerLineAlt} />
+          <img
+            alt=""
+            className="block max-w-none w-full"
+            src={dividerLineAlt}
+          />
         </div>
       </div>
       <div className="flex flex-col md:flex-row gap-3 font-gothic font-normal items-center justify-between text-[#949eb0] text-[13px] w-full max-w-[1200px] px-6 whitespace-nowrap">

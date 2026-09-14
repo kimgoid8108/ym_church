@@ -1,9 +1,15 @@
-const imgHeroSection = "https://www.figma.com/api/mcp/asset/80767bee-d8a5-490b-8340-22d54b20836d.png";
-const imgBannerSlider = "https://www.figma.com/api/mcp/asset/1f7851c5-4227-45c1-9dfc-9631ec09f968.png";
-const imgVideoThumb = "https://www.figma.com/api/mcp/asset/21ece70c-4f44-4fe1-a98b-4e0554b60a5d.png";
-const imgThumbnail = "https://www.figma.com/api/mcp/asset/b23898dc-ec76-4b8b-ba8b-fa8f10b1f9f5.png";
-const imgThumbnail1 = "https://www.figma.com/api/mcp/asset/41d46a5b-ade8-43e7-bc8e-bafca00b36d8.png";
-const imgThumbnail2 = "https://www.figma.com/api/mcp/asset/b4eab3c6-deaf-408a-a443-22ee97267f42.png";
+const imgHeroSection =
+  "https://www.figma.com/api/mcp/asset/80767bee-d8a5-490b-8340-22d54b20836d.png";
+const imgBannerSlider =
+  "https://www.figma.com/api/mcp/asset/1f7851c5-4227-45c1-9dfc-9631ec09f968.png";
+const imgVideoThumb =
+  "https://www.figma.com/api/mcp/asset/21ece70c-4f44-4fe1-a98b-4e0554b60a5d.png";
+const imgThumbnail =
+  "https://www.figma.com/api/mcp/asset/b23898dc-ec76-4b8b-ba8b-fa8f10b1f9f5.png";
+const imgThumbnail1 =
+  "https://www.figma.com/api/mcp/asset/41d46a5b-ade8-43e7-bc8e-bafca00b36d8.png";
+const imgThumbnail2 =
+  "https://www.figma.com/api/mcp/asset/b4eab3c6-deaf-408a-a443-22ee97267f42.png";
 
 import {
   iconChevronLeft as imgChevronLeft,
@@ -28,7 +34,11 @@ export default function Home() {
     <div className="bg-[#faf9f5] flex flex-col items-center relative w-full">
       <div className="flex flex-col h-[640px] items-center justify-center relative shrink-0 w-full">
         <div aria-hidden className="absolute inset-0 pointer-events-none">
-          <img alt="" className="absolute max-w-none object-cover size-full" src={imgHeroSection} />
+          <img
+            alt=""
+            className="absolute max-w-none object-cover size-full"
+            src={imgHeroSection}
+          />
           <div className="absolute bg-[rgba(12,30,54,0.55)] inset-0" />
         </div>
         <div className="flex flex-col gap-[24px] items-center relative shrink-0 w-full max-w-[1200px] px-6">
@@ -53,7 +63,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="flex flex-col items-center justify-center relative shrink-0 w-full">
+      {/* <div className="flex flex-col items-center justify-center relative shrink-0 w-full">
         <div className="flex flex-col lg:flex-row items-start relative shrink-0 w-full max-w-[1700px]">
           <div className="flex flex-[1_0_0] flex-col h-[480px] items-start justify-center min-w-px overflow-clip relative w-full">
             <div aria-hidden className="absolute inset-0 pointer-events-none">
@@ -200,7 +210,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
       <div className="bg-[#faf9f5] flex flex-col items-center py-[100px] relative shrink-0 w-full">
         <div className="flex flex-col gap-[48px] items-start relative shrink-0 w-full max-w-[1200px] px-6">
           <div className="flex flex-col md:flex-row md:items-end justify-between gap-6 relative shrink-0 w-full">
@@ -231,7 +241,10 @@ export default function Home() {
                 </div>
               </div>
               <div className="flex flex-col items-start relative shrink-0 w-full">
-                <a href="/new-members" className="border-[rgba(255,255,255,0.05)] border-b border-solid flex items-center justify-between pl-[28px] pr-[24px] py-[20px] relative shrink-0 w-full">
+                <a
+                  href="/new-members"
+                  className="border-[rgba(255,255,255,0.05)] border-b border-solid flex items-center justify-between pl-[28px] pr-[24px] py-[20px] relative shrink-0 w-full"
+                >
                   <div className="flex gap-[16px] items-center leading-[normal] relative shrink-0 whitespace-nowrap">
                     <p className="font-cormorant font-bold font-bold relative shrink-0 text-[#c29c53] text-[22px]">
                       01
@@ -247,11 +260,18 @@ export default function Home() {
                   </div>
                   <div className="bg-[rgba(255,255,255,0.08)] flex items-center justify-center relative rounded-[14px] shrink-0 size-[28px]">
                     <div className="relative shrink-0 size-[12px]">
-                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgChevronRight2} />
+                      <img
+                        alt=""
+                        className="absolute block inset-0 max-w-none size-full"
+                        src={imgChevronRight2}
+                      />
                     </div>
                   </div>
                 </a>
-                <a href="/worship-guide" className="border-[rgba(255,255,255,0.05)] border-b border-solid flex items-center justify-between pl-[28px] pr-[24px] py-[20px] relative shrink-0 w-full">
+                <a
+                  href="/worship-guide"
+                  className="border-[rgba(255,255,255,0.05)] border-b border-solid flex items-center justify-between pl-[28px] pr-[24px] py-[20px] relative shrink-0 w-full"
+                >
                   <div className="flex gap-[16px] items-center leading-[normal] relative shrink-0 whitespace-nowrap">
                     <p className="font-cormorant font-bold font-bold relative shrink-0 text-[#c29c53] text-[22px]">
                       02
@@ -267,11 +287,18 @@ export default function Home() {
                   </div>
                   <div className="bg-[rgba(255,255,255,0.08)] flex items-center justify-center relative rounded-[14px] shrink-0 size-[28px]">
                     <div className="relative shrink-0 size-[12px]">
-                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgChevronRight2} />
+                      <img
+                        alt=""
+                        className="absolute block inset-0 max-w-none size-full"
+                        src={imgChevronRight2}
+                      />
                     </div>
                   </div>
                 </a>
-                <a href="/directions" className="flex items-center justify-between pl-[28px] pr-[24px] py-[20px] relative shrink-0 w-full">
+                <a
+                  href="/directions"
+                  className="flex items-center justify-between pl-[28px] pr-[24px] py-[20px] relative shrink-0 w-full"
+                >
                   <div className="flex gap-[16px] items-center leading-[normal] relative shrink-0 whitespace-nowrap">
                     <p className="font-cormorant font-bold font-bold relative shrink-0 text-[#c29c53] text-[22px]">
                       03
@@ -287,7 +314,11 @@ export default function Home() {
                   </div>
                   <div className="bg-[rgba(255,255,255,0.08)] flex items-center justify-center relative rounded-[14px] shrink-0 size-[28px]">
                     <div className="relative shrink-0 size-[12px]">
-                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgChevronRight2} />
+                      <img
+                        alt=""
+                        className="absolute block inset-0 max-w-none size-full"
+                        src={imgChevronRight2}
+                      />
                     </div>
                   </div>
                 </a>
@@ -313,7 +344,11 @@ export default function Home() {
                       </p>
                       <div className="bg-[rgba(255,255,255,0.08)] flex items-center justify-center relative rounded-[12px] shrink-0 size-[24px]">
                         <div className="relative shrink-0 size-[12px]">
-                          <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgExternalLink1} />
+                          <img
+                            alt=""
+                            className="absolute block inset-0 max-w-none size-full"
+                            src={imgExternalLink1}
+                          />
                         </div>
                       </div>
                     </div>
@@ -328,7 +363,11 @@ export default function Home() {
                       </p>
                       <div className="bg-[rgba(255,255,255,0.08)] flex items-center justify-center relative rounded-[12px] shrink-0 size-[24px]">
                         <div className="relative shrink-0 size-[12px]">
-                          <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgExternalLink1} />
+                          <img
+                            alt=""
+                            className="absolute block inset-0 max-w-none size-full"
+                            src={imgExternalLink1}
+                          />
                         </div>
                       </div>
                     </div>
@@ -343,7 +382,11 @@ export default function Home() {
                       </p>
                       <div className="bg-[rgba(255,255,255,0.08)] flex items-center justify-center relative rounded-[12px] shrink-0 size-[24px]">
                         <div className="relative shrink-0 size-[12px]">
-                          <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgExternalLink1} />
+                          <img
+                            alt=""
+                            className="absolute block inset-0 max-w-none size-full"
+                            src={imgExternalLink1}
+                          />
                         </div>
                       </div>
                     </div>
@@ -360,7 +403,11 @@ export default function Home() {
                       </p>
                       <div className="bg-[rgba(255,255,255,0.08)] flex items-center justify-center relative rounded-[12px] shrink-0 size-[24px]">
                         <div className="relative shrink-0 size-[12px]">
-                          <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgExternalLink1} />
+                          <img
+                            alt=""
+                            className="absolute block inset-0 max-w-none size-full"
+                            src={imgExternalLink1}
+                          />
                         </div>
                       </div>
                     </div>
@@ -375,7 +422,11 @@ export default function Home() {
                       </p>
                       <div className="bg-[rgba(255,255,255,0.08)] flex items-center justify-center relative rounded-[12px] shrink-0 size-[24px]">
                         <div className="relative shrink-0 size-[12px]">
-                          <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgExternalLink1} />
+                          <img
+                            alt=""
+                            className="absolute block inset-0 max-w-none size-full"
+                            src={imgExternalLink1}
+                          />
                         </div>
                       </div>
                     </div>
@@ -390,7 +441,11 @@ export default function Home() {
                       </p>
                       <div className="bg-[rgba(255,255,255,0.08)] flex items-center justify-center relative rounded-[12px] shrink-0 size-[24px]">
                         <div className="relative shrink-0 size-[12px]">
-                          <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgExternalLink1} />
+                          <img
+                            alt=""
+                            className="absolute block inset-0 max-w-none size-full"
+                            src={imgExternalLink1}
+                          />
                         </div>
                       </div>
                     </div>
@@ -405,7 +460,7 @@ export default function Home() {
         </div>
       </div>
       <div className="bg-[#faf9f5] flex flex-col items-center py-[100px] relative shrink-0 w-full">
-        <div className="flex flex-col gap-[60px] items-center relative shrink-0 w-full max-w-[1200px] px-6">
+        <div className="flex flex-col gap-[60px] items-center relative shrink-0 w-full max-w-[1500px] px-6">
           <div className="flex flex-col gap-[12px] items-center relative shrink-0 w-full">
             <p className="font-cormorant font-medium font-medium leading-[normal] relative shrink-0 text-[#c29c53] text-[16px] text-center uppercase whitespace-nowrap">
               Worship Services
@@ -415,7 +470,8 @@ export default function Home() {
             </p>
             <div className="bg-[#c29c53] h-[2px] relative shrink-0 w-[40px]" />
             <p className="font-gothic font-normal leading-[normal] min-w-full not-italic relative shrink-0 text-[#666] text-[16px] text-center w-[min-content]">
-              주일 1부, 2부, 3부 예배와 수요기도회, 금요기도회, 새벽기도회로 하나님께 영광 돌립니다
+              주일 1부, 2부, 3부 예배와 수요기도회, 금요기도회, 새벽기도회로
+              하나님께 영광 돌립니다
             </p>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-[24px] items-stretch relative shrink-0 w-full">
@@ -423,12 +479,16 @@ export default function Home() {
               { title: "주일오전 1부 예배", time: "오전 7:30", place: "본당" },
               { title: "주일오전 2부 예배", time: "오전 9:00", place: "본당" },
               { title: "주일오전 3부 예배", time: "오전 11:00", place: "본당" },
-              { title: "수요기도회", time: "1부 오전 10:30 / 2부 저녁 8:00", place: "본당" },
+              {
+                title: "수요기도회",
+                time: "1부 오전 10:30 / 2부 저녁 8:00",
+                place: "본당",
+              },
               { title: "금요기도회", time: "금요일 저녁 9:00", place: "본당" },
             ].map((service) => (
               <div
                 key={service.title}
-                className="bg-white border border-[#eae6df] border-solid drop-shadow-[0px_4px_6px_rgba(0,0,0,0.02)] flex flex-col gap-[20px] items-center justify-center p-[32px] relative rounded-[8px]"
+                className="bg-white border border-[#eae6df] border-solid drop-shadow-[0px_4px_6px_rgba(0,0,0,0.02)] flex flex-col gap-[20px] items-center justify-center p-[32px] relative rounded-[8px] w-full"
               >
                 <div className="flex items-center justify-between relative shrink-0 w-full">
                   <p className="font-gothic font-bold leading-[normal] not-italic relative shrink-0 text-[#0c1e36] text-[18px]">
@@ -442,13 +502,21 @@ export default function Home() {
                 </div>
                 <div className="h-0 relative shrink-0 w-full">
                   <div className="absolute inset-[-1px_0_0_0]">
-                    <img alt="" className="block max-w-none size-full" src={imgLine} />
+                    <img
+                      alt=""
+                      className="block max-w-none size-full"
+                      src={imgLine}
+                    />
                   </div>
                 </div>
                 <div className="flex flex-col gap-[8px] items-start relative shrink-0 w-full">
                   <div className="flex gap-[8px] items-center relative shrink-0">
                     <div className="relative shrink-0 size-[16px]">
-                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgClock} />
+                      <img
+                        alt=""
+                        className="absolute block inset-0 max-w-none size-full"
+                        src={imgClock}
+                      />
                     </div>
                     <p className="font-gothic font-semibold leading-[normal] not-italic relative shrink-0 text-[#222] text-[14px]">
                       {service.time}
@@ -456,7 +524,11 @@ export default function Home() {
                   </div>
                   <div className="flex gap-[8px] items-center relative shrink-0">
                     <div className="relative shrink-0 size-[16px]">
-                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgMapPin} />
+                      <img
+                        alt=""
+                        className="absolute block inset-0 max-w-none size-full"
+                        src={imgMapPin}
+                      />
                     </div>
                     <p className="font-gothic font-normal leading-[normal] not-italic relative shrink-0 text-[#666] text-[14px] whitespace-nowrap">
                       {service.place}
@@ -482,19 +554,48 @@ export default function Home() {
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-[24px] items-stretch relative shrink-0 w-full">
             {[
-              { thumb: imgThumbnail, title: "하나님의 타이밍을 기다리는 믿음 (창세기 12:1-4)", preacher: "전종철 담임목사", date: "2026.05.10" },
-              { thumb: imgThumbnail1, title: "세상의 소금과 빛으로 부름받은 우리 (마태복음 5:13-16)", preacher: "전종철 담임목사", date: "2026.05.03" },
-              { thumb: imgThumbnail2, title: "두려움을 넘어서는 은혜의 음성 (이사야 41:10)", preacher: "김원배 부목사", date: "2026.04.26" },
+              {
+                thumb: imgThumbnail,
+                title: "하나님의 타이밍을 기다리는 믿음 (창세기 12:1-4)",
+                preacher: "전종철 담임목사",
+                date: "2026.05.10",
+              },
+              {
+                thumb: imgThumbnail1,
+                title: "세상의 소금과 빛으로 부름받은 우리 (마태복음 5:13-16)",
+                preacher: "전종철 담임목사",
+                date: "2026.05.03",
+              },
+              {
+                thumb: imgThumbnail2,
+                title: "두려움을 넘어서는 은혜의 음성 (이사야 41:10)",
+                preacher: "김원배 부목사",
+                date: "2026.04.26",
+              },
             ].map((sermon) => (
-              <div key={sermon.title} className="bg-white border border-[#eae6df] border-solid flex flex-col items-start overflow-clip relative rounded-[8px]">
+              <div
+                key={sermon.title}
+                className="bg-white border border-[#eae6df] border-solid flex flex-col items-start overflow-clip relative rounded-[8px]"
+              >
                 <div className="flex h-[180px] items-center justify-center p-[20px] relative shrink-0 w-full">
-                  <div aria-hidden className="absolute inset-0 pointer-events-none">
-                    <img alt="" className="absolute max-w-none object-cover size-full" src={sermon.thumb} />
+                  <div
+                    aria-hidden
+                    className="absolute inset-0 pointer-events-none"
+                  >
+                    <img
+                      alt=""
+                      className="absolute max-w-none object-cover size-full"
+                      src={sermon.thumb}
+                    />
                     <div className="absolute bg-[rgba(12,30,54,0.4)] inset-0" />
                   </div>
                   <div className="bg-[rgba(255,255,255,0.9)] flex items-center justify-center relative rounded-[24px] shrink-0 size-[48px]">
                     <div className="relative shrink-0 size-[18px]">
-                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgPlay1} />
+                      <img
+                        alt=""
+                        className="absolute block inset-0 max-w-none size-full"
+                        src={imgPlay1}
+                      />
                     </div>
                   </div>
                 </div>
@@ -503,8 +604,12 @@ export default function Home() {
                     {sermon.title}
                   </p>
                   <div className="flex font-gothic font-normal items-center justify-between relative shrink-0 text-[#666] w-full whitespace-nowrap">
-                    <p className="relative shrink-0 text-[14px]">{sermon.preacher}</p>
-                    <p className="relative shrink-0 text-[13px]">{sermon.date}</p>
+                    <p className="relative shrink-0 text-[14px]">
+                      {sermon.preacher}
+                    </p>
+                    <p className="relative shrink-0 text-[13px]">
+                      {sermon.date}
+                    </p>
                   </div>
                 </div>
               </div>
@@ -528,16 +633,38 @@ export default function Home() {
           </div>
           <div className="bg-white border border-[#eae6df] border-solid flex flex-col items-start p-[32px] relative rounded-[8px] shrink-0 w-full">
             {[
-              { tag: "공지", tagStyle: "bg-[#1a2f4c] text-white", title: "2026년도 상반기 전교인 연합 야외 아웃리치 안내", date: "2026.05.08" },
-              { tag: "소식", tagStyle: "bg-[#f0eae1] text-[#c29c53]", title: "새가족 양육 교육과정 수료식 (총 12명 수료)", date: "2026.05.05" },
-              { tag: "모집", tagStyle: "bg-[#f0eae1] text-[#c29c53]", title: "호산나 찬양대 성가대원 추가 모집 (피아노 및 파트원)", date: "2026.05.01" },
-              { tag: "알림", tagStyle: "bg-[#f0eae1] text-[#c29c53]", title: "금주 주일예배 차량 주차 및 셔틀 운행 시간 안내", date: "2026.04.28" },
+              {
+                tag: "공지",
+                tagStyle: "bg-[#1a2f4c] text-white",
+                title: "2026년도 상반기 전교인 연합 야외 아웃리치 안내",
+                date: "2026.05.08",
+              },
+              {
+                tag: "소식",
+                tagStyle: "bg-[#f0eae1] text-[#c29c53]",
+                title: "새가족 양육 교육과정 수료식 (총 12명 수료)",
+                date: "2026.05.05",
+              },
+              {
+                tag: "모집",
+                tagStyle: "bg-[#f0eae1] text-[#c29c53]",
+                title: "호산나 찬양대 성가대원 추가 모집 (피아노 및 파트원)",
+                date: "2026.05.01",
+              },
+              {
+                tag: "알림",
+                tagStyle: "bg-[#f0eae1] text-[#c29c53]",
+                title: "금주 주일예배 차량 주차 및 셔틀 운행 시간 안내",
+                date: "2026.04.28",
+              },
             ].map((news, i, arr) => (
               <div
                 key={news.title}
                 className={`flex gap-[24px] items-center py-[20px] relative shrink-0 w-full ${i < arr.length - 1 ? "border-[#eae6df] border-b border-solid" : ""}`}
               >
-                <div className={`${news.tagStyle} flex items-start justify-center px-[12px] py-[4px] relative rounded-[4px] shrink-0 w-[70px]`}>
+                <div
+                  className={`${news.tagStyle} flex items-start justify-center px-[12px] py-[4px] relative rounded-[4px] shrink-0 w-[70px]`}
+                >
                   <p className="font-gothic font-semibold leading-[normal] not-italic relative shrink-0 text-[12px] whitespace-nowrap">
                     {news.tag}
                   </p>
